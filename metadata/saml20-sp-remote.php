@@ -20,12 +20,13 @@ $metadata['cloudfoundry-saml-login'] = array(
     'simplesaml.nameidattribute' => 'uid',
 );
 
-$metadata['login.10.244.0.34.xip.io'] = array(
-    'AssertionConsumerService' => 'http://login.10.244.0.34.xip.io/saml/SSO/alias/login.10.244.0.34.xip.io',
-    'SingleLogoutService' => 'http://login.10.244.0.34.xip.io/saml/SSO/alias/login.10.244.0.34.xip.io',
+$metadata['http://test-identity.login.run.haas-63.pez.pivotal.io'] = array(
+    'AssertionConsumerService' => 'https://test-identity.login.run.haas-63.pez.pivotal.io/saml/SSO/alias/test-identity.login.run.haas-63.pez.pivotal.io',
+    'SingleLogoutService' => 'https://test-identity.login.run.haas-63.pez.pivotal.io/saml/SingleLogout/alias/test-identity.login.run.haas-63.pez.pivotal.io',
     'NameIDFormat' => 'urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress',
     'simplesaml.nameidattribute' => 'emailAddress',
 );
+
 
 $metadata['login.identity.cf-app.com'] = array(
     'AssertionConsumerService' => 'https://login.identity.cf-app.com/saml/SSO/alias/login.identity.cf-app.com',

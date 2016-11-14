@@ -7,7 +7,7 @@ $config = array(
         // The default is to use core:AdminPassword, but it can be replaced with
         // any authentication source.
 
-        'core:AdminPassword',
+        'core:password',
     ),
 
 
@@ -130,10 +130,20 @@ $config = array(
             'uid' => 'marissa6',
             'eduPersonAffiliation' => array('member'),
             'emailAddress' => 'marissa6@test.org',
-            'groups' => array('saml.user', 'saml.admin'),
+            'groups' => array('saml.user', 'saml.admin', 'user'),
             'costCenter' => 'Denver,CO',
             'manager' => array('John the Sloth', 'Kari the Ant Eater'),
         ),
+
+        'shaozhen:shaozhen' => array(
+            'uid' => 'shaozhen',
+            'eduPersonAffiliation' => array('member'),
+            'emailAddress' => 'dsz0111@gmail.com',
+            'groups' => array('saml.user', 'saml.admin', 'admin'),
+            'costCenter' => 'Denver,CO',
+            'manager' => array('John the Sloth', 'Kari the Ant Eater'),
+        ),
+
 
         'user_only_for_invitations_test:saml' => array(
             'uid' => 'user_only_for_invitations_test',
