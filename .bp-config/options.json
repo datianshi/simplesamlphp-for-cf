@@ -1,0 +1,4 @@
+{
+	"COMPOSER_INSTALL_OPTIONS": ["--no-interaction", "--no-dev", "--no-progress", "--prefer-source"],
+        "COMPOSER_VENDOR_DIR": "./vendor"
+}
